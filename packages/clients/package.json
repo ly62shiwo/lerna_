@@ -1,0 +1,16 @@
+{
+  "name": "@wa/clients",
+  "version": "0.0.0",
+  "private": true,
+  "description": "> TODO: description",
+  "author": "wa",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/clients.js",
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
+}

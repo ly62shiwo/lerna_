@@ -1,0 +1,23 @@
+{
+  "name": "root",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "engines": {
+    "node": ">=18.17.0"
+  },
+  "scripts": {
+    "dev:main": "cd packages/main && npm run dev",
+    "clean": "lerna clean --yes && rimraf **/node_modules",
+    "clean:all": "rimraf **/node_modules **/.next **/.rollup **/.cache **/.release **/yarn.lock"
+  },
+  "dependencies": {
+    "@types/lodash": "^4.17.6",
+    "axios": "^1.7.2",
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "lerna": "^8.1.2"
+  }
+}
